@@ -20,23 +20,25 @@
             </div>
             <div class="form-group">
               <label for="initial-deposit">Initial Deposit:</label>
-              <input type="text" class="form-control" id="initial-deposit">
+              <input type="number" class="form-control" value="0" id="initial-deposit">
             </div>
           </div>
           <div class="col-md-4">
             <h2>Add or Subtract $:</h2>
               <div class="form-group">
-                <label for="new-name">Add $:</label>
-                <input type="text" class="form-control" id="deposit">
+                <label for="deposit">Add $:</label>
+                <input type="number" class="form-control" value="0" id="deposit">
               </div>
               <div class="form-group">
-                <label for="initial-deposit">Subtract $:</label>
-                <input type="text" class="form-control" id="withdraw">
+                <label for="withdraw">Subtract $:</label>
+                <input type="number" class="form-control" value="0" id="withdraw">
               </div>
               <button type="submit" class="btn-success">Adult</button>
             </div>
           </form>
         </div>
+      <div id="balance">
+        <h3>Current money situation; <span class="money"></span></h3>
       </div>
     </div>
   </body>
